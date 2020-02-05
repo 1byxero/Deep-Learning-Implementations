@@ -1,12 +1,12 @@
-# Deep-Learning-Implementations
-Implementation of few famous Deep Learning Algorithms in pytorch 
+# Deep Learning Algorithms
+Implementation of famous Deep Learning Algorithms in pytorch 
 
-#### 1. Audio Denoising using Fully connected network completed
-Implemented a fully connected neural network to learn mask to denoise audio having chip eating noise
-
-#### 2. Hello World of Deep Learning Completed
+#### 1. Hello World of Deep Learning
 Implemented a fully connected neural network to classify handwritten digits. 
 Further explored which node in different layers are firing for different kinds of digits 
+
+#### 2. Audio Denoising using Fully connected network completed
+Implemented a fully connected neural network to learn mask to denoise audio having chip eating noise
 
 #### 3. Audio Denoising using 1D CNN implemented
 Implemented a 1D convolutional neural network to learn mask to denoise audio having chip eating noise
@@ -22,4 +22,20 @@ Implemented a Recurrent neural network to learn mask to denoise audio having chi
 
 #### 6. Network compression using SVD
 Reduced network parameters by usage of SVD on the parameters. 
-Comparison of network performance with respect of number of parameters needed for the network
+Compared network performance with respect of number of parameters needed for the network to understand effect of network compression
+
+#### 7. MNIST Generative Adversarial Network  
+Implemented a generative adversarial network to generate handwritten digits similar to MNIST digits
+
+#### 8. MNIST Conditional Generative Adversarial Network  
+Implemented a conditional GAN to control which digit is generated.
+
+#### 9. Siamese Network for Voice Identification
+Implemented Siamese network to verify which audio clip belongs to which speaker.
+
+#### 10. Varitional Autoencoder on MNIST
+Learned the gaussian distribution which can generate MNIST digits.
+Tried different combinations of parameters of the distribution to see effect on the generated digits.
+
+
+
